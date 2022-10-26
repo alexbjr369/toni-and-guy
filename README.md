@@ -10,7 +10,7 @@ A cover page using **[Greensock](https://greensock.com/gsap/)** and distortion e
 
 **[`Preview`](https://alexbleggi.netlify.app/preview/toni-and-guy)**
 
-<img src="https://github.com/alexbjr369/alexbjr369/blob/main/images/toni-and-guy.png" alt="toni&guy">
+<img src="https://github.com/alexbjr369/alexbjr369/blob/main/images/toni-and-guy.gif" alt="toni&guy">
 
 ## Built With
 
@@ -32,6 +32,9 @@ A cover page using **[Greensock](https://greensock.com/gsap/)** and distortion e
   </a>
   <a href="https://stylelint.io" target="_blank">
     <img align="center" alt="Stylelint" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/stylelint-gray.svg">
+  </a>
+  <a href="https://www.typescriptlang.org/" target="_blank">
+    <img align="center" alt="TypeScript" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/typescript.svg">
   </a>
   <a href="https://eslint.org" target="_blank">
     <img align="center" alt="ESLint" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/eslint.svg">
