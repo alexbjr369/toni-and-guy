@@ -21,8 +21,6 @@ export const distortion = (element: HTMLElement) => {
 };
 
 const setHoverEffect = (element: HTMLElement) => {
-  console.log(element);
-
   distortionEffect = new hoverEffect({
     parent: element,
     intensity: 0.2,
