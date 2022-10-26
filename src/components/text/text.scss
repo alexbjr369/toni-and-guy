@@ -1,0 +1,57 @@
+@use 'sass:math';
+@use 'sass:map';
+@import '../../utilities/scss/utilities';
+
+.text {
+  @include fluid-property(
+    padding-top,
+    (math.div($component-page-bottom, 2)),
+    $component-page-bottom
+  );
+  position: relative;
+  overflow: hidden;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+
+  &__heading-primary {
+    @include fluid-property(font-size, 6rem, 12rem);
+    @include fluid-property(letter-spacing, -0.1rem, -1rem);
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: -1rem;
+
+    text-transform: uppercase;
+  }
+
+  &__heading-secondary {
+    @include fluid-property(font-size, 7.5rem, 15rem);
+    @include fluid-property(letter-spacing, 0.1rem, 0.8rem);
+    @include fluid-property(right, 2.4rem, 4.8rem);
+    @include fluid-property(bottom, 4rem, -2rem);
+    position: absolute;
+    z-index: -1;
+    color: var(--#{$namespace}-color-primary);
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+
+    @media (max-width: map.get($breakpoints, xl)) {
+      color: var(--#{$namespace}-color-primary-dark);
+    }
+  }
+
+  &__heading-tertiary {
+    @include fluid-property(font-size, 2rem, 4rem);
+    margin: 0 2.4rem 0 0;
+    font-weight: 600;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  &__paragraph {
+    @include fluid-property(margin-right, 1.2rem, 2.4rem);
+    height: 20rem;
+    font-weight: 500;
+    font-size: 1.2rem;
+  }
+}

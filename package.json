@@ -1,0 +1,31 @@
+{
+  "name": "toni-and-guy",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --base=/preview/toni-and-guy/",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.11.3",
+    "hover-effect": "^1.1.0",
+    "three": "^0.145.0"
+  },
+  "devDependencies": {
+    "@types/gsap": "^3.0.0",
+    "@types/three": "^0.144.0",
+    "@typescript-eslint/eslint-plugin": "^5.41.0",
+    "@typescript-eslint/parser": "^5.41.0",
+    "eslint": "^8.26.0",
+    "prettier": "^2.7.1",
+    "sass": "^1.55.0",
+    "stylelint": "^14.14.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-order": "^5.0.0",
+    "typescript": "^4.8.4",
+    "vite": "^3.1.0"
+  }
+}

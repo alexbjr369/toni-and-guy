@@ -1,0 +1,32 @@
+@use 'sass:map';
+@import '../../utilities/scss/utilities';
+
+.sponsor {
+  position: relative;
+  bottom: $component-page-bottom;
+  text-align: center;
+
+  @media (max-width: map.get($breakpoints, sm)) {
+    position: absolute;
+    top: 9rem;
+    right: 0;
+  }
+
+  &__image {
+    width: 20rem;
+    transform: rotate(90deg);
+
+    @media (max-width: map.get($breakpoints, md)) {
+      transform: rotate(-90deg);
+    }
+  }
+
+  &__paragraph {
+    margin: 2.4rem 0 0 0;
+    font-weight: 900;
+    font-size: 1.2rem;
+    line-height: 1;
+    text-transform: uppercase;
+    transform: rotate(180deg);
+  }
+}

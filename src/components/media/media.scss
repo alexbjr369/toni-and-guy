@@ -1,0 +1,27 @@
+@use 'sass:math';
+@import '../../utilities/scss/utilities';
+
+$media-link-padding-vertical: 2.4rem;
+
+.media {
+  @include fluid-property(
+    padding-top,
+    ((math.div($component-page-bottom, 2)) - $media-link-padding-vertical),
+    ($component-page-bottom - $media-link-padding-vertical)
+  );
+  position: relative;
+  transform: rotate(180deg);
+  writing-mode: vertical-rl;
+
+  &__item {
+    display: inline-block;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+  }
+
+  &__link {
+    padding: $media-link-padding-vertical 1.2rem;
+    text-decoration: none;
+  }
+}

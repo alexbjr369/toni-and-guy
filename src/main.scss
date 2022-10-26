@@ -1,0 +1,54 @@
+@use 'sass:math';
+@import './utilities/scss/variables';
+
+:root {
+  --#{$namespace}-color-primary: #efde74;
+  --#{$namespace}-color-primary-dark: #ead344;
+  --#{$namespace}-text-color: #000;
+  --#{$namespace}-background-color: #d8dbe2;
+  --#{$namespace}-transition-timing: 0.2s;
+  --#{$namespace}-transition-easing: ease-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins';
+  background-color: var(--#{$namespace}-background-color);
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+::selection {
+  background-color: var(--#{$namespace}-color-primary);
+}
+
+a {
+  color: var(--#{$namespace}-text-color);
+  border: 1px solid transparent;
+  transition: border-color var(--#{$namespace}-transition-timing)
+    var(--#{$namespace}-transition-easing);
+  display: inline-block;
+
+  &:focus {
+    outline: none;
+    border-color: var(--#{$namespace}-text-color);
+  }
+
+  &:hover {
+    border-color: var(--#{$namespace}-text-color);
+  }
+}
