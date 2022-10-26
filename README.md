@@ -40,7 +40,7 @@ A cover page using **[Greensock](https://greensock.com/gsap/)** and distortion e
     <img align="center" alt="GSAP" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/gsap.svg">
   </a>
   <a href="https://threejs.org" target="_blank">
-    <img align="center" alt="Three.js" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/three.svg">
+    <img align="center" alt="Three.js" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/three-js-gray.svg">
   </a>
   <a href="https://vitejs.dev" target="_blank">
     <img align="center" alt="Vite" height="60" width="60" src="https://github.com/alexbjr369/alexbjr369/blob/main/icons/vite.svg">
