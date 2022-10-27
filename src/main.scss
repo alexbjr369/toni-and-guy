@@ -26,10 +26,10 @@ html {
 }
 
 body {
-  font-family: 'Poppins';
-  background-color: var(--#{$namespace}-background-color);
   box-sizing: border-box;
   overflow: hidden;
+  font-family: 'Poppins';
+  background-color: var(--#{$namespace}-background-color);
 }
 
 ::selection {
@@ -37,15 +37,15 @@ body {
 }
 
 a {
+  display: inline-block;
   color: var(--#{$namespace}-text-color);
   border: 1px solid transparent;
   transition: border-color var(--#{$namespace}-transition-timing)
     var(--#{$namespace}-transition-easing);
-  display: inline-block;
 
   &:focus {
-    outline: none;
     border-color: var(--#{$namespace}-text-color);
+    outline: none;
   }
 
   &:hover {
