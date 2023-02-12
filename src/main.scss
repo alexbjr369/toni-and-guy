@@ -1,5 +1,5 @@
 @use 'sass:math';
-@import './utilities/scss/variables';
+@import './utilities/scss/utilities';
 
 :root {
   --#{$namespace}-color-primary: #efde74;
@@ -52,3 +52,11 @@ a {
     border-color: var(--#{$namespace}-text-color);
   }
 }
+
+@import './components/app';
+@import './components/distortion';
+@import './components/media';
+@import './components/nav';
+@import './components/overlay';
+@import './components/sponsor';
+@import './components/text';

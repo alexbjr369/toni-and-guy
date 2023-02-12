@@ -1,6 +1,6 @@
 @use 'sass:math';
 @use 'sass:map';
-@import '../../utilities/scss/utilities';
+@import '../utilities/scss/utilities';
 
 .text {
   @include fluid-property(

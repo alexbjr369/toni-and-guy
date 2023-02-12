@@ -13,7 +13,76 @@
     />
   </head>
   <body>
-    <div id="app"></div>
+    <div class="app">
+      <div class="container">
+        <div id="nav-container">
+          <nav class="nav">
+            <a class="nav__link nav__link_menu" href="#" target="_blank">
+              <ion-icon name="menu-outline"></ion-icon>
+            </a>
+            <a class="nav__link nav__link_lang" href="#" target="_blank">eng</a>
+            <a class="nav__link nav__link_search" href="#" target="_blank">
+              <ion-icon name="search-outline"></ion-icon>
+            </a>
+          </nav>
+        </div>
+      </div>
+
+      <main class="main">
+        <div id="media-container">
+          <div class="media">
+            <ul class="media__list">
+              <li class="media__item">
+                <a class="media__link" href="#" target="_blank">facebook</a>
+              </li>
+              <li class="media__item">
+                <a class="media__link" href="#" target="_blank">instagram</a>
+              </li>
+              <li class="media__item">
+                <a class="media__link" href="#" target="_blank">twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="main__center">
+          <div id="text-container">
+            <div class="text">
+              <h1 class="text__heading-primary">toni&guy</h1>
+              <h2 class="text__heading-secondary">duality</h2>
+              <h3 class="text__heading-tertiary">
+                collection 2017 <br />
+                duality
+              </h3>
+              <p class="text__paragraph">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde
+                quis, delectus facere neque sunt commodi quae culpa dolores
+                doloribus magnam?
+              </p>
+            </div>
+          </div>
+          <div id="distortion-container">
+            <div class="distortion"></div>
+          </div>
+        </div>
+        <div id="sponsor-container">
+          <div class="sponsor">
+            <img
+              class="sponsor__image"
+              src="./src/images/sponsor-logo.png"
+              alt="Official sponsor: London Fashion Week"
+            />
+            <p class="sponsor__paragraph">official sponsor</p>
+          </div>
+        </div>
+      </main>
+
+      <div id="overlay-container">
+        <div class="overlay overlay_first"></div>
+        <div class="overlay overlay_second"></div>
+        <div class="overlay overlay_third"></div>
+      </div>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
     <script
       type="module"

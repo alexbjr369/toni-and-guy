@@ -1,7 +1,7 @@
 @use 'sass:map';
-@import '../../utilities/scss/utilities';
+@import '../utilities/scss/utilities';
 
-#app {
+.app {
   display: flex;
   flex-direction: column;
   height: 100%;
