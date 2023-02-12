@@ -2,18 +2,18 @@ import './main.scss';
 
 import gsap from 'gsap';
 import hoverEffect from 'hover-effect';
-import {
-  OVERLAY,
-  NAV,
-  MEDIA,
-  TEXT,
-  SPONSOR,
-  DISTORTION,
-} from './utilities/typescript/constants';
-import { Breakpoints } from './utilities/typescript/enums';
 import distortion01Image from './images/01.png';
 import distortion02Image from './images/02.png';
 import distortionEffectImage from './images/distortion.png';
+import {
+  DISTORTION,
+  MEDIA,
+  NAV,
+  OVERLAY,
+  SPONSOR,
+  TEXT,
+} from './utilities/typescript/constants';
+import { Breakpoints } from './utilities/typescript/enums';
 
 /**
  * overlay
