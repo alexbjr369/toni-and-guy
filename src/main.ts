@@ -19,21 +19,21 @@ import { Breakpoints } from './utilities/typescript/enums';
  * overlay
  */
 
-gsap.to(OVERLAY.firstEl, {
+gsap.to(OVERLAY.firstElement, {
   duration: 1,
   delay: 0.5,
   top: '-100%',
   ease: Expo.easeInOut,
 });
 
-gsap.to(OVERLAY.secondEl, {
+gsap.to(OVERLAY.secondElement, {
   duration: 1,
   delay: 0.7,
   top: '-100%',
   ease: Expo.easeInOut,
 });
 
-gsap.to(OVERLAY.thirdEl, {
+gsap.to(OVERLAY.thirdElement, {
   duration: 1,
   delay: 0.9,
   top: '-100%',
@@ -44,7 +44,7 @@ gsap.to(OVERLAY.thirdEl, {
  * nav
  */
 
-gsap.from(NAV.linkEl, {
+gsap.from(NAV.linkElement, {
   duration: 1.5,
   delay: 1.5,
   opacity: 0,
@@ -57,7 +57,7 @@ gsap.from(NAV.linkEl, {
  * media
  */
 
-gsap.from(MEDIA.itemEl, {
+gsap.from(MEDIA.itemElement, {
   duration: 1.5,
   delay: 1.5,
   opacity: 0,
@@ -70,14 +70,14 @@ gsap.from(MEDIA.itemEl, {
  * text
  */
 
-gsap.from(TEXT.headingPrimaryEl, {
+gsap.from(TEXT.headingPrimaryElement, {
   duration: 1,
   delay: 1,
   x: '-100vw',
   ease: Expo.easeInOut,
 });
 
-gsap.from(TEXT.headingSecondaryEl, {
+gsap.from(TEXT.headingSecondaryElement, {
   duration: 1,
   delay: 1.5,
   opacity: 0,
@@ -85,14 +85,14 @@ gsap.from(TEXT.headingSecondaryEl, {
   ease: Expo.easeInOut,
 });
 
-gsap.from(TEXT.headingTertiaryEl, {
+gsap.from(TEXT.headingTertiaryElement, {
   duration: 1,
   delay: 1.2,
   x: '-100vw',
   ease: Expo.easeInOut,
 });
 
-gsap.from(TEXT.paragraphEl, {
+gsap.from(TEXT.paragraphElement, {
   duration: 1,
   delay: 1.3,
   x: '-100vw',
@@ -104,7 +104,7 @@ gsap.from(TEXT.paragraphEl, {
  */
 
 const biggerThanSM = () => {
-  gsap.from(SPONSOR.imageEl, {
+  gsap.from(SPONSOR.imageElement, {
     duration: 1,
     delay: 1.5,
     opacity: 9,
@@ -112,7 +112,7 @@ const biggerThanSM = () => {
     ease: Expo.easeInOut,
   });
 
-  gsap.from(SPONSOR.paragraphEl, {
+  gsap.from(SPONSOR.paragraphElement, {
     duration: 1,
     delay: 1.6,
     opacity: 0,
@@ -122,7 +122,7 @@ const biggerThanSM = () => {
 };
 
 const smallerThanSM = () => {
-  gsap.from(SPONSOR.imageEl, {
+  gsap.from(SPONSOR.imageElement, {
     duration: 1,
     delay: 1.6,
     opacity: 9,
@@ -130,7 +130,7 @@ const smallerThanSM = () => {
     ease: Expo.easeInOut,
   });
 
-  gsap.from(SPONSOR.paragraphEl, {
+  gsap.from(SPONSOR.paragraphElement, {
     duration: 1,
     delay: 1.5,
     opacity: 0,
@@ -153,7 +153,7 @@ let changeDistortion = false;
 const intervalTiming = 2400;
 
 const distortionElement = document.querySelector<HTMLDivElement>(
-  DISTORTION.distortionEl
+  DISTORTION.distortionElement
 )!;
 
 const distortionEffect = new hoverEffect({

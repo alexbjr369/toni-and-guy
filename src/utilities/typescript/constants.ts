@@ -1,29 +1,29 @@
 export const OVERLAY = {
-  firstEl: '.overlay_first',
-  secondEl: '.overlay_second',
-  thirdEl: '.overlay_third',
+  firstElement: '.overlay_first',
+  secondElement: '.overlay_second',
+  thirdElement: '.overlay_third',
 };
 
 export const NAV = {
-  linkEl: '.nav__link',
+  linkElement: '.nav__link',
 };
 
 export const MEDIA = {
-  itemEl: '.media__item',
+  itemElement: '.media__item',
 };
 
 export const TEXT = {
-  headingPrimaryEl: '.text__heading-primary',
-  headingSecondaryEl: '.text__heading-secondary',
-  headingTertiaryEl: '.text__heading-tertiary',
-  paragraphEl: '.text__paragraph',
+  headingPrimaryElement: '.text__heading-primary',
+  headingSecondaryElement: '.text__heading-secondary',
+  headingTertiaryElement: '.text__heading-tertiary',
+  paragraphElement: '.text__paragraph',
 };
 
 export const SPONSOR = {
-  imageEl: '.sponsor__image',
-  paragraphEl: '.sponsor__paragraph',
+  imageElement: '.sponsor__image',
+  paragraphElement: '.sponsor__paragraph',
 };
 
 export const DISTORTION = {
-  distortionEl: '.distortion',
+  distortionElement: '.distortion',
 };
