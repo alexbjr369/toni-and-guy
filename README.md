@@ -10,7 +10,7 @@ A cover page using **[Greensock](https://greensock.com/gsap/)** and distortion e
 
 **[`Preview`](https://alexbleggi.netlify.app/preview/toni-and-guy)**
 
-<img src="https://github.com/alexbjr369/alexbjr369/blob/main/images/toni-and-guy-gif.gif" alt="toni&guy">
+<img src="https://github.com/alexbjr369/alexbjr369/blob/main/images/toni-and-guy.gif" alt="toni&guy">
 
 ## Built With
 
